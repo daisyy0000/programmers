@@ -8,6 +8,7 @@ class Solution {
             answer = (int)(result * 1000);
             return answer;
         }
+        
         return -1;
     }
 }
