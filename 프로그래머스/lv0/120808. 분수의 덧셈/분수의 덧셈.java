@@ -10,7 +10,7 @@ class Solution {
         //최대공약수
         int max = 1;
         
-        for(int i=1; i<=numer; i++){
+        for(int i=1; i<=denom; i++){
             if( numer % i == 0 && denom % i == 0){
                 max = i;
             }
