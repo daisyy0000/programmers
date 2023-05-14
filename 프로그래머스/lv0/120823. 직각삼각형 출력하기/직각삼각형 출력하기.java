@@ -12,5 +12,8 @@ public class Solution {
             System.out.println();
             
         } 
+        
+        //다른사람 풀이 (repeat()이용해서)
+        //System.out.println("*".repeat(i));
     }
 }
