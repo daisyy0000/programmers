@@ -2,16 +2,20 @@ class Solution {
     public int[] solution(int[] num_list) {
         int[] answer = new int[2];
         
-        int odd = 0;
-        int even = 0;
+        int odd = 0; //홀수
+        int even = 0; //짝수
         
         for(int i=0; i < num_list.length; i++){
             if(num_list[i] % 2 == 0){
-                even++;
+                even++;  //answer[0]++;
             }else if(num_list[i] % 2 != 0){
-                odd++;
+                odd++;   //answer[1]++;
             }
         }
+        
+        //다른 사람의 풀이(for문안에)
+        //answer[num_list[i] % 2]++;...짱..!
+        
         answer[0] = even;
         answer[1] = odd;
         
