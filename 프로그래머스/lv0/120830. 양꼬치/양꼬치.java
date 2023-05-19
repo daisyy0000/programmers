@@ -7,7 +7,7 @@ class Solution {
         
         int service = n / 10;
         
-        answer = (lamb * n) + (drink * k) - (drink * service);
+        answer = (lamb * n) + (drink * k) - (drink * service); //(n / 10 * 2000)
         return answer;
     }
 }
