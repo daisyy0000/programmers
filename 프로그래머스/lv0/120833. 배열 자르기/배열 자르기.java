@@ -5,7 +5,15 @@ class Solution {
         int[] answer = {};
         
         answer = Arrays.copyOfRange(numbers, num1, num2+1);
-        
+    
+        //다른사람 풀이: for문으로
+        /*
+        int[] answer = new int[num2 - num1 + 1];
+
+        for (int i = num1; i <= num2; i++) {
+            answer[i -num1] = numbers[i];
+        }
+        */
         
         return answer;
     }
