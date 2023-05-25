@@ -18,6 +18,8 @@ class Solution {
         }
             
         answer = quotient1 + quotient2 + remainder2;
+        
+        //한줄좌..answer = hp / 5 + (hp % 5 / 3) + hp % 5 % 3;
         return answer;
     }
 }
