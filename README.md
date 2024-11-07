@@ -1,1 +1,1 @@
-# programmers
+# 스터디(Java, SQL)
